@@ -1,0 +1,510 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +24V
+K POWER, PWR
+$ENDCMP
+#
+$CMP +32VDC_Rectified
+K POWER, PWR
+$ENDCMP
+#
+$CMP +3V3
+K POWER, PWR
+$ENDCMP
+#
+$CMP 23LC512
+D IC SRAM 512KBIT 20MHZ 8SOIC
+K Serial SRAM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005155B.pdf
+$ENDCMP
+#
+$CMP 24LC1025
+D I2C Serial EEPROM, 1024kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf
+$ENDCMP
+#
+$CMP 24LC256
+D I2C Serial EEPROM, 256kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/devicedoc/21203m.pdf
+$ENDCMP
+#
+$CMP 24LC512
+D IC SRAM 512KBIT 20MHZ 8SOIC
+K Serial SRAM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005155B.pdf
+$ENDCMP
+#
+$CMP 24LC64
+D I2C Serial EEPROM, 64kb
+K I2C Serial EEPROM
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21189f.pdf
+$ENDCMP
+#
+$CMP 568-0102-173F
+D LED Array 4 Pos
+K led array
+$ENDCMP
+#
+$CMP BARREL_JACK
+D DC Barrel Jack
+K DC power barrel jack connector
+$ENDCMP
+#
+$CMP BQ24040
+D IC BATT CHG LI-ION 1 CELL 10SON
+K Battery Charger IC Lithium Ion
+F http://www.ti.com/lit/ds/symlink/bq24040.pdf
+$ENDCMP
+#
+$CMP BQ2419RGER
+D IC BATT CHARGE MGMT 24VQFN 
+K Battery Charger Lithium-Ion
+F http://www.ti.com/lit/ds/symlink/bq24196.pdf
+$ENDCMP
+#
+$CMP Battery_Cell
+D single battery cell
+K battery cell
+$ENDCMP
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector, single row, 01x02, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector, single row, 01x03, pin header
+K connector
+$ENDCMP
+#
+$CMP CONN_02X05
+D Connector, double row, 02x05, pin header
+K connector
+$ENDCMP
+#
+$CMP C_Small
+D Unpolarized capacitor
+K capacitor cap
+$ENDCMP
+#
+$CMP Capacitor-Polarized
+D Polarised capacitor
+K cap capacitor
+$ENDCMP
+#
+$CMP Crystal_Small
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+$CMP D_ALT
+D Diode, alternativ symbol
+K diode
+$ENDCMP
+#
+$CMP D_Bridge_+AA-
+D Diode bridge (pins: 1=+, 2=AC, 3=AC, 4=-)
+K rectifier acdc
+$ENDCMP
+#
+$CMP D_Schottky_ALT
+D Schottky diode, alternativ symbol
+K diode schotty
+$ENDCMP
+#
+$CMP D_Schottky_Small
+D Schottky diode, small symbol
+K diode schottky
+$ENDCMP
+#
+$CMP D_Zener_ALT
+D Zener Diode, alternativ symbol
+K diode
+F https://en.wikipedia.org/wiki/Zener_diode
+$ENDCMP
+#
+$CMP Debug_Header
+D Connector, single row, 01x06, pin header
+K connector
+$ENDCMP
+#
+$CMP EMI_Filter_CommonMode
+D EMI 2-inductor common-mode-filter
+K EMI common mode filter
+F ~
+$ENDCMP
+#
+$CMP EMI_Filter_LL
+D EMI 2-inductor-filter
+K EMI filter
+F http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb
+$ENDCMP
+#
+$CMP Earth
+D Ground
+K POWER, PWR, GND, GROUND
+$ENDCMP
+#
+$CMP Fuse
+D Fuse, generic
+K Fuse
+$ENDCMP
+#
+$CMP G5Q-1A
+D G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP G6L-1F-DC24
+D G5G-1A, Miniature Single Pole Relay, SPST-NO, 10A
+K Miniature Single Pole Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP Heatsink
+D Heatsink
+K thermal heat temperature
+$ENDCMP
+#
+$CMP ICSP_Header
+D Connector, single row, 01x06, pin header
+K connector
+$ENDCMP
+#
+$CMP INA226AIDGSR
+D IC MONITOR PWR/CURR BDIR 10MSOP
+$ENDCMP
+#
+$CMP Jumper_3_Pos
+D Jumper, normally closed
+K jumper link bridge
+$ENDCMP
+#
+$CMP Jumper_NC_Small
+D Jumper, normally closed
+K jumper link bridge
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+$ENDCMP
+#
+$CMP LCD-016N002L
+D 16 x 2 Character LCD
+F http://www.vishay.com/docs/37299/37299.pdf
+$ENDCMP
+#
+$CMP LCD-09052
+D WC1602A0-SFYLYNC06
+K Generic LCD 16x2 Alphanumeric 16pin Green Backlight
+F http://www.kamami.pl/dl/wc1602a0.pdf
+$ENDCMP
+#
+$CMP LCD16X4
+D WC1602A0-SFYLYNC06
+K Generic LCD 16x2 Alphanumeric 16pin Green Backlight
+F http://www.kamami.pl/dl/wc1602a0.pdf
+$ENDCMP
+#
+$CMP LED_ALT
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+$CMP LM2902N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM3488
+D IC REG CTRLR MULT TOP 8VSSOP 
+K DC-DC Switching Controller
+F http://www.ti.com/lit/ds/symlink/lm3488.pdf
+$ENDCMP
+#
+$CMP LM3940IMP-3.3
+D IC REG LINEAR 3.3V 1A SOT223-4
+K LDO, 500mA, 5V
+F http://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
+$CMP LMC6484
+D Quad CMOS Rail-to-Rail Input and Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmc6484.pdf
+$ENDCMP
+#
+$CMP LMV324
+D Quad Low-Voltage Rail-to-Rail Output Operational Amplifier
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/lmv324.pdf
+$ENDCMP
+#
+$CMP LTC1871-1
+D C REG CTRLR MULT TOP 10MSOP
+K DC-DC Switching Controller
+F http://www.analog.com/media/en/technical-documentation/data-sheets/18711fb.pdf
+$ENDCMP
+#
+$CMP LTC2943
+D IC GAS GAUGE MULTICELL 8DFN
+K Battery Management, Gas Gauge
+$ENDCMP
+#
+$CMP MCP40D17T-104E/LT
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100
+D IC DGTL POT 100K 128TAPS SC70-6
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22152b.pdf
+$ENDCMP
+#
+$CMP MCP4821
+D IC DAC 12BIT W/SPI 8SOIC
+K Single DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22244B.pdf
+$ENDCMP
+#
+$CMP MCP4821-E/SN
+D MCP4921, Single 12-bit Digital to Analog Converter, SPI Interface, MSOP-8
+K Single DAC 1ch 12bit SPI
+F http://ww1.microchip.com/downloads/en/devicedoc/21897a.pdf
+$ENDCMP
+#
+$CMP MCP6004
+D Microchip quad general purpose rail to rail op-amp, 1MHz GBWP
+K quad op amp operational amplifier 
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf
+$ENDCMP
+#
+$CMP MCP604
+D Quad 2.7V to 6.0V Single Supply CMOS Operational Amplifier
+K CMOS Single-Supply OPAMP Ampliop
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf
+$ENDCMP
+#
+$CMP NCP1117DT12G
+D IC REG LINEAR 3.3V 1A SOT89-5 
+K REGULATOR LDO 3.3V 1A
+F http://www.onsemi.com/pub/Collateral/NCP694.PDF
+$ENDCMP
+#
+$CMP NCP1117DT15G
+D 1A Low drop-out regulator, Fixed Output 1.5V, DPAK
+K REGULATOR LDO 1.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT18G
+D 1A Low drop-out regulator, Fixed Output 1.8V, DPAK
+K REGULATOR LDO 18.V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT19G
+D 1A Low drop-out regulator, Fixed Output 1.9V, DPAK
+K REGULATOR LDO 1.9V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT20G
+D 1A Low drop-out regulator, Fixed Output 2.0V, DPAK
+K REGULATOR LDO 2.0V 2V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT25G
+D 1A Low drop-out regulator, Fixed Output 2.5V, DPAK
+K REGULATOR LDO 2.5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT285G
+D 1A Low drop-out regulator, Fixed Output 2.85V, DPAK
+K REGULATOR LDO 2.85V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT33G
+D 1A Low drop-out regulator, Fixed Output 3.3V, DPAK
+K REGULATOR LDO 3.3V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP1117DT50G
+D 1A Low drop-out regulator, Fixed Output 5.0V, DPAK
+K REGULATOR LDO 5.0V 5V
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP NCP695D33HT1G
+D 1A Low drop-out regulator, Adjustable Output 1.25 - 18.8V, DPAK
+K REGULATOR LDO ADJUSTABLE
+F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
+$CMP PIC18F96J60-I/PF
+D IC MCU 32BIT 256KB FLASH 100TQFP
+$ENDCMP
+#
+$CMP PIC32MX350F256L-I/PT
+D 64K Flash, 3.7K SRAM, Ethernet Controller with PHY, 8K Buffer, TQFP100
+K Flash Based 8-Bit Microcontroller Ethernet Controller PHY
+F http://ww1.microchip.com/downloads/en/DeviceDoc/39762f.pdf
+$ENDCMP
+#
+$CMP POT
+D Potentionmeter
+K resistor variable
+$ENDCMP
+#
+$CMP Q_NMOS_GSD
+D Transistor N-MOSFETwith substrate diode (general)
+K NMOS n-mos n-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PMOS_GDS
+D Transistor P-MOSFET with substrate diode (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+$CMP Q_PNP_BEC
+D Transistor PNP (general)
+K pnp transistor
+$ENDCMP
+#
+$CMP R
+D Resistor
+K r res resistor
+$ENDCMP
+#
+$CMP RN4678
+D Class 2 Bluetooth Module with on-board antenna
+K Bluetooth Module
+F http://ww1.microchip.com/downloads/en/DeviceDoc/50002519A.pdf
+$ENDCMP
+#
+$CMP Rotary_Encoder_Switch
+D Rotary encoder, dual channel, incremental quadrate outputs, with switch
+K rotary switch encoder switch push button
+F ~
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SW_SPST
+D Single Pole Single Throw (SPST) switch
+K switch lever
+$ENDCMP
+#
+$CMP TEST_1P
+D point
+K point tp
+$ENDCMP
+#
+$CMP TL064
+D Quad Low-Power JFET-Input Operational Amplifiers, Very Low Power
+K AmpliOp
+F http://www.ti.com/lit/ds/symlink/tl064.pdf
+$ENDCMP
+#
+$CMP TL074
+D Quad Low-Noise JFET-Input Operational Amplifiers, Low Power
+K AmpliOp Mos
+F http://www.ti.com/lit/ds/symlink/tlc074.pdf
+$ENDCMP
+#
+$CMP TL084
+D JFET-Input Operational Amplifiers
+K ampliop
+F http://www.ti.com/lit/ds/symlink/tl082.pdf
+$ENDCMP
+#
+$CMP TL2575-05IKTTR
+D IC REG BUCK 5V 1A 5-DDPAK 
+K LDO, 500mA, 5V
+F http://www.ti.com/lit/ds/symlink/tl2575-12.pdf
+$ENDCMP
+#
+$CMP TLC274
+D Precision Quad Op amp. Mos
+K AmpliOp Mos
+F http://www.ti.com.cn/cn/lit/ds/symlink/tlc274.pdf
+$ENDCMP
+#
+$CMP TPS62177
+D IC REG BUCK 3.3V 0.5A 10WSON 
+K DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps62177.pdf
+$ENDCMP
+#
+$CMP Transformer_1P_1S
+D Transformer, single primary, single secondary
+K transformer coil magnet
+$ENDCMP
+#
+$CMP VBAT
+K POWER, PWR
+$ENDCMP
+#
+$CMP VCC
+K POWER, PWR
+$ENDCMP
+#
+$CMP VPP
+K POWER, PWR
+$ENDCMP
+#
+$CMP VSYS
+K POWER, PWR
+$ENDCMP
+#
+$CMP Varistor
+D Voltage dependent resistor
+K vdr resistance
+$ENDCMP
+#
+#End Doc Library

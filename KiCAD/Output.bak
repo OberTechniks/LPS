@@ -1,0 +1,1863 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Lab_Power_Supply
+LIBS:LM3940IMP-3.3
+LIBS:LPS
+LIBS:Microchip_EMO
+LIBS:LPS-rescue
+LIBS:LPS-cache
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:atxmega128a4u
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regulators
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
+LIBS:Symbols_EN60617_13Mar2013
+LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
+LIBS:Symbols_ICs-Diskrete_RevD10
+LIBS:Symbols_ICs-Opto_RevB_16Sep2013
+LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
+LIBS:Symbols_Socket-DIN41612_RevA
+LIBS:Symbols_Transformer-Diskrete_RevA
+LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
+LIBS:Lab_Power_Supply-cache
+EELAYER 25 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 3 4
+Title "Lab Power Supply"
+Date "2017-09-04"
+Rev "A"
+Comp ""
+Comment1 "Adjustable Voltage 0-20V, 10mV Precision"
+Comment2 "Adjustable Current Limiting 0-1A, 10mA Precision"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TestPoint TP11
+U 1 1 5AA66572
+P 16005 8205
+F 0 "TP11" V 16005 8455 50  0000 C CNN
+F 1 "TestPoint" H 16005 8105 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8205 50  0001 C CNN
+F 3 "" H 16005 8205 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8205 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8205 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8205 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8205 60  0001 C CNN "Vendor Part#"
+	1    16005 8205
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP12
+U 1 1 5AA66573
+P 16005 8320
+F 0 "TP12" V 16005 8570 50  0000 C CNN
+F 1 "TestPoint" H 16005 8220 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8320 50  0001 C CNN
+F 3 "" H 16005 8320 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8320 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8320 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8320 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8320 60  0001 C CNN "Vendor Part#"
+	1    16005 8320
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP14
+U 1 1 5AA66574
+P 16005 8570
+F 0 "TP14" V 16005 8820 50  0000 C CNN
+F 1 "TestPoint" H 16005 8470 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8570 50  0001 C CNN
+F 3 "" H 16005 8570 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8570 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8570 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8570 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8570 60  0001 C CNN "Vendor Part#"
+	1    16005 8570
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP15
+U 1 1 5AA66575
+P 16005 8695
+F 0 "TP15" V 16005 8945 50  0000 C CNN
+F 1 "TestPoint" H 16005 8595 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8695 50  0001 C CNN
+F 3 "" H 16005 8695 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8695 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8695 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8695 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8695 60  0001 C CNN "Vendor Part#"
+	1    16005 8695
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP16
+U 1 1 5AA66576
+P 16005 8810
+F 0 "TP16" V 16005 9060 50  0000 C CNN
+F 1 "TestPoint" H 16005 8710 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8810 50  0001 C CNN
+F 3 "" H 16005 8810 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8810 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8810 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8810 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8810 60  0001 C CNN "Vendor Part#"
+	1    16005 8810
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP13
+U 1 1 5AA66578
+P 16005 8445
+F 0 "TP13" V 16005 8695 50  0000 C CNN
+F 1 "TestPoint" H 16005 8345 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8445 50  0001 C CNN
+F 3 "" H 16005 8445 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8445 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8445 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8445 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8445 60  0001 C CNN "Vendor Part#"
+	1    16005 8445
+	0    1    1    0   
+$EndComp
+$Comp
+L TestPoint TP17
+U 1 1 5AA66579
+P 16005 8910
+F 0 "TP17" V 16005 9160 50  0000 C CNN
+F 1 "TestPoint" H 16005 8810 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:SMT_Test_Point" H 16005 8910 50  0001 C CNN
+F 3 "" H 16005 8910 50  0000 C CNN
+F 4 "Harwin Inc" H 16005 8910 60  0001 C CNN "Manufacturer"
+F 5 "S1751-46R" H 16005 8910 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16005 8910 60  0001 C CNN "Vendor"
+F 7 "-" H 16005 8910 60  0001 C CNN "Vendor Part#"
+	1    16005 8910
+	0    1    1    0   
+$EndComp
+Text Notes 2505 2195 0    75   ~ 15
+BOOST CONVERTER PRE-REGULATION
+Text Notes 15685 7840 0    75   ~ 15
+TEST POINTS
+Text HLabel 8630 3655 0    100  Input ~ 0
+VOLTAGE_SET
+Text HLabel 9810 7465 0    100  Input ~ 0
+CURRENT_SET
+Text HLabel 14705 2505 2    100  Output ~ 0
+ISENSE_-
+Text HLabel 14705 2155 2    100  Output ~ 0
+ISENSE_+
+$Comp
+L LM324 U2
+U 1 1 5B394485
+P 9430 3755
+F 0 "U2" H 9430 3955 50  0000 L CNN
+F 1 "LM324" H 9430 3555 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 9380 3855 50  0001 C CNN
+F 3 "" H 9480 3955 50  0001 C CNN
+F 4 "Texas Instruments" H 9430 3755 60  0001 C CNN "Manufacturer"
+F 5 "LM324ADR" H 9430 3755 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 9430 3755 60  0001 C CNN "Vendor"
+F 7 "-" H 9430 3755 60  0001 C CNN "Vendor Part#"
+	1    9430 3755
+	1    0    0    -1  
+$EndComp
+$Comp
+L Fuse F3
+U 1 1 5B3A0B9E
+P 15105 3005
+F 0 "F3" V 15185 3005 50  0000 C CNN
+F 1 "2A" V 15030 3005 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 15035 3005 50  0001 C CNN
+F 3 "" H 15105 3005 50  0001 C CNN
+F 4 "Bel Fuse Inc" H 15105 3005 60  0001 C CNN "Manufacturer"
+F 5 "C1Q 2" H 15105 3005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 15105 3005 60  0001 C CNN "Vendor"
+F 7 "-" H 15105 3005 60  0001 C CNN "Vendor Part#"
+	1    15105 3005
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_SPST SW5
+U 1 1 5B3A6967
+P 15555 3005
+F 0 "SW5" H 15555 3130 50  0000 C CNN
+F 1 "SW_SPST" H 15555 2905 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:R1966ABLKBLKGR" H 15555 3005 50  0001 C CNN
+F 3 "" H 15555 3005 50  0001 C CNN
+F 4 "E-Switch" H 15555 3005 60  0001 C CNN "Manufacturer"
+F 5 "R1966ABLKBLKGR" H 15555 3005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 15555 3005 60  0001 C CNN "Vendor"
+F 7 "-" H 15555 3005 60  0001 C CNN "Vendor Part#"
+	1    15555 3005
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R39
+U 1 1 5B3D3F36
+P 13855 3005
+F 0 "R39" V 13935 3005 50  0000 C CNN
+F 1 ".1" V 13855 3005 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 13785 3005 50  0001 C CNN
+F 3 "" H 13855 3005 50  0001 C CNN
+F 4 "Yageo" H 13855 3005 60  0001 C CNN "Manufacturer"
+F 5 "PT1206FR-070R1L" H 13855 3005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 13855 3005 60  0001 C CNN "Vendor"
+F 7 "-" H 13855 3005 60  0001 C CNN "Vendor Part#"
+	1    13855 3005
+	0    1    1    0   
+$EndComp
+$Comp
+L Capacitor-Polarized C35
+U 1 1 5B3D5470
+P 14105 3490
+F 0 "C35" H 14130 3590 50  0000 L CNN
+F 1 "22uF" H 14130 3390 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 14105 3490 50  0001 C CNN
+F 3 "" H 14105 3490 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 14105 3490 60  0001 C CNN "Manufacturer"
+F 5 "EEE-1HA220WP" H 14105 3490 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 14105 3490 60  0001 C CNN "Vendor"
+F 7 "-" H 14105 3490 60  0001 C CNN "Vendor Part#"
+	1    14105 3490
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Zener_ALT D12
+U 1 1 5B3D6096
+P 14455 3255
+F 0 "D12" H 14455 3355 50  0000 C CNN
+F 1 "24V" H 14455 3155 50  0000 C CNN
+F 2 "Diodes_SMD:D_SMA" H 14455 3255 50  0001 C CNN
+F 3 "" H 14455 3255 50  0001 C CNN
+F 4 "Micro Commercial Co." H 14455 3255 60  0001 C CNN "Manufacturer"
+F 5 "3SMAJ5934B-TP" H 14455 3255 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 14455 3255 60  0001 C CNN "Vendor"
+F 7 "-" H 14455 3255 60  0001 C CNN "Vendor Part#"
+	1    14455 3255
+	0    1    1    0   
+$EndComp
+$Comp
+L R R40
+U 1 1 5B40BC13
+P 14455 3755
+F 0 "R40" V 14535 3755 50  0000 C CNN
+F 1 "1K" V 14455 3755 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 14385 3755 50  0001 C CNN
+F 3 "" H 14455 3755 50  0001 C CNN
+F 4 "Bourns Inc." H 14455 3755 60  0001 C CNN "Manufacturer"
+F 5 "CRM2512-JW-102ELF" H 14455 3755 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 14455 3755 60  0001 C CNN "Vendor"
+F 7 "-" H 14455 3755 60  0001 C CNN "Vendor Part#"
+	1    14455 3755
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5B412098
+P 14855 4005
+F 0 "#PWR016" H 14855 3755 50  0001 C CNN
+F 1 "GND" H 14855 3855 50  0000 C CNN
+F 2 "" H 14855 4005 50  0001 C CNN
+F 3 "" H 14855 4005 50  0001 C CNN
+	1    14855 4005
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 J2
+U 1 1 5B414E7A
+P 16290 3055
+F 0 "J2" H 16290 3205 50  0000 C CNN
+F 1 "OUTPUT" V 16380 3015 50  0000 C CNN
+F 2 "Wire_Pads:SolderWirePad_2x_2mmDrill" H 16290 3055 50  0001 C CNN
+F 3 "" H 16290 3055 50  0001 C CNN
+F 4 "Molex, LLC" H 16290 3055 60  0001 C CNN "Manufacturer"
+F 5 "43650-0228" H 16290 3055 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 16290 3055 60  0001 C CNN "Vendor"
+F 7 "-" H 16290 3055 60  0001 C CNN "Vendor Part#"
+	1    16290 3055
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_ALT D11
+U 1 1 5B439EFB
+P 13355 3005
+F 0 "D11" H 13355 3105 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 13355 2905 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMC" H 13355 3005 50  0001 C CNN
+F 3 "" H 13355 3005 50  0001 C CNN
+F 4 "ON Semiconductor" H 13355 3005 60  0001 C CNN "Manufacturer"
+F 5 "MBRS360T3G" H 13355 3005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 13355 3005 60  0001 C CNN "Vendor"
+F 7 "-" H 13355 3005 60  0001 C CNN "Vendor Part#"
+	1    13355 3005
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_PMOS_GDS Q5
+U 1 1 5B441304
+P 12905 3105
+F 0 "Q5" H 13105 3155 50  0000 L CNN
+F 1 "Q_PMOS_GDS" H 13105 3055 50  0001 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 13105 3205 50  0001 C CNN
+F 3 "" H 12905 3105 50  0001 C CNN
+F 4 "Vishay Siliconix" H 12905 3105 60  0001 C CNN "Manufacturer"
+F 5 "IRF9640PBF" H 12905 3105 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 12905 3105 60  0001 C CNN "Vendor"
+F 7 "-" H 12905 3105 60  0001 C CNN "Vendor Part#"
+	1    12905 3105
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R37
+U 1 1 5B4434F9
+P 12605 3255
+F 0 "R37" V 12685 3255 50  0000 C CNN
+F 1 "1K" V 12605 3255 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 12535 3255 50  0001 C CNN
+F 3 "" H 12605 3255 50  0001 C CNN
+F 4 "Bourns Inc." H 12605 3255 60  0001 C CNN "Manufacturer"
+F 5 "CRM2512-JW-102ELF" H 12605 3255 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 12605 3255 60  0001 C CNN "Vendor"
+F 7 "-" H 12605 3255 60  0001 C CNN "Vendor Part#"
+	1    12605 3255
+	-1   0    0    1   
+$EndComp
+Text Label 14105 2155 0    60   ~ 0
+ISENSE_+
+Text Label 14105 2505 0    60   ~ 0
+ISENSE_-
+$Comp
+L Q_PNP_BEC Q4
+U 1 1 5B44DBFB
+P 12805 3655
+F 0 "Q4" H 13005 3705 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 13005 3605 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 13005 3755 50  0001 C CNN
+F 3 "" H 12805 3655 50  0001 C CNN
+F 4 "ON Semiconductor" H 12805 3655 60  0001 C CNN "Manufacturer"
+F 5 "MMBT4403" H 12805 3655 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 12805 3655 60  0001 C CNN "Vendor"
+F 7 "-" H 12805 3655 60  0001 C CNN "Vendor Part#"
+	1    12805 3655
+	1    0    0    1   
+$EndComp
+$Comp
+L D_Zener_ALT D10
+U 1 1 5B459575
+P 12320 3255
+F 0 "D10" H 12320 3355 50  0000 C CNN
+F 1 "10V" H 12320 3155 50  0000 C CNN
+F 2 "Diodes_SMD:D_MiniMELF" H 12320 3255 50  0001 C CNN
+F 3 "" H 12320 3255 50  0001 C CNN
+F 4 "Vishay" H 12320 3255 60  0001 C CNN "Manufacturer"
+F 5 "TZM5240B-GS08" H 12320 3255 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 12320 3255 60  0001 C CNN "Vendor"
+F 7 "-" H 12320 3255 60  0001 C CNN "Vendor Part#"
+	1    12320 3255
+	0    1    1    0   
+$EndComp
+$Comp
+L R R36
+U 1 1 5B4607A9
+P 11970 3655
+F 0 "R36" V 12050 3655 50  0000 C CNN
+F 1 "4.7K" V 11970 3655 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 11900 3655 50  0001 C CNN
+F 3 "" H 11970 3655 50  0001 C CNN
+F 4 "Yageo" H 11970 3655 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-074K7L" H 11970 3655 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11970 3655 60  0001 C CNN "Vendor"
+F 7 "-" H 11970 3655 60  0001 C CNN "Vendor Part#"
+	1    11970 3655
+	0    1    1    0   
+$EndComp
+$Comp
+L LM324 U2
+U 2 1 5B466137
+P 11270 3655
+F 0 "U2" H 11270 3855 50  0000 L CNN
+F 1 "LM324" H 11270 3455 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 11220 3755 50  0001 C CNN
+F 3 "" H 11320 3855 50  0001 C CNN
+F 4 "Texas Instruments" H 11270 3655 60  0001 C CNN "Manufacturer"
+F 5 "LM324ADR" H 11270 3655 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11270 3655 60  0001 C CNN "Vendor"
+F 7 "-" H 11270 3655 60  0001 C CNN "Vendor Part#"
+	2    11270 3655
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U3
+U 2 1 5B46672C
+P 10655 6205
+F 0 "U3" H 10655 6405 50  0000 L CNN
+F 1 "LM324" H 10655 6005 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 10605 6305 50  0001 C CNN
+F 3 "" H 10705 6405 50  0001 C CNN
+F 4 "Texas Instruments" H 10655 6205 60  0001 C CNN "Manufacturer"
+F 5 "LM324ADR" H 10655 6205 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10655 6205 60  0001 C CNN "Vendor"
+F 7 "-" H 10655 6205 60  0001 C CNN "Vendor Part#"
+	2    10655 6205
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM324 U3
+U 1 1 5B4669A2
+P 8920 6105
+F 0 "U3" H 8975 6225 50  0000 L CNN
+F 1 "LM324" H 8920 5905 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8870 6205 50  0001 C CNN
+F 3 "" H 8970 6305 50  0001 C CNN
+F 4 "Texas Instruments" H 8920 6105 60  0001 C CNN "Manufacturer"
+F 5 "LM324ADR" H 8920 6105 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8920 6105 60  0001 C CNN "Vendor"
+F 7 "-" H 8920 6105 60  0001 C CNN "Vendor Part#"
+	1    8920 6105
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 5B470689
+P 8820 6455
+F 0 "#PWR017" H 8820 6205 50  0001 C CNN
+F 1 "GND" H 8955 6395 50  0000 C CNN
+F 2 "" H 8820 6455 50  0001 C CNN
+F 3 "" H 8820 6455 50  0001 C CNN
+	1    8820 6455
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky_ALT D8
+U 1 1 5B473C09
+P 10570 3355
+F 0 "D8" H 10570 3455 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 10570 3255 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMC" H 10570 3355 50  0001 C CNN
+F 3 "" H 10570 3355 50  0001 C CNN
+F 4 "ON Semiconductor" H 10570 3355 60  0001 C CNN "Manufacturer"
+F 5 "MBRS360T3G" H 10570 3355 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10570 3355 60  0001 C CNN "Vendor"
+F 7 "-" H 10570 3355 60  0001 C CNN "Vendor Part#"
+	1    10570 3355
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R33
+U 1 1 5B477182
+P 11135 4455
+F 0 "R33" V 11215 4455 50  0000 C CNN
+F 1 "47K" V 11135 4455 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 11065 4455 50  0001 C CNN
+F 3 "" H 11135 4455 50  0001 C CNN
+F 4 "Yageo" H 11135 4455 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-0747KL" H 11135 4455 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11135 4455 60  0001 C CNN "Vendor"
+F 7 "-" H 11135 4455 60  0001 C CNN "Vendor Part#"
+	1    11135 4455
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R34
+U 1 1 5B4777B2
+P 11135 4805
+F 0 "R34" V 11215 4805 50  0000 C CNN
+F 1 "120" V 11135 4805 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 11065 4805 50  0001 C CNN
+F 3 "" H 11135 4805 50  0001 C CNN
+F 4 "Yageo" H 11135 4805 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-07120RL" H 11135 4805 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11135 4805 60  0001 C CNN "Vendor"
+F 7 "-" H 11135 4805 60  0001 C CNN "Vendor Part#"
+	1    11135 4805
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C34
+U 1 1 5B4782F8
+P 11485 4805
+F 0 "C34" V 11380 4775 50  0000 L CNN
+F 1 "47pF" V 11585 4755 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11485 4805 50  0001 C CNN
+F 3 "" H 11485 4805 50  0001 C CNN
+F 4 "Johanson Dielectrics Inc" H 11485 4805 60  0001 C CNN "Manufacturer"
+F 5 "500R15N470JV4T" H 11485 4805 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11485 4805 60  0001 C CNN "Vendor"
+F 7 "-" H 11485 4805 60  0001 C CNN "Vendor Part#"
+	1    11485 4805
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C33
+U 1 1 5B4788A5
+P 11485 4455
+F 0 "C33" V 11380 4430 50  0000 L CNN
+F 1 "22pF" V 11600 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11485 4455 50  0001 C CNN
+F 3 "" H 11485 4455 50  0001 C CNN
+F 4 "Kemet" H 11485 4455 60  0001 C CNN "Manufacturer"
+F 5 "C0805C220J5GACTU" H 11485 4455 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11485 4455 60  0001 C CNN "Vendor"
+F 7 "-" H 11485 4455 60  0001 C CNN "Vendor Part#"
+	1    11485 4455
+	0    1    1    0   
+$EndComp
+$Comp
+L R R32
+U 1 1 5B478DC1
+P 10870 3155
+F 0 "R32" V 10950 3155 50  0000 C CNN
+F 1 "10K" V 10870 3155 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10800 3155 50  0001 C CNN
+F 3 "" H 10870 3155 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 10870 3155 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 10870 3155 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10870 3155 60  0001 C CNN "Vendor"
+F 7 "-" H 10870 3155 60  0001 C CNN "Vendor Part#"
+	1    10870 3155
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R31
+U 1 1 5B49BBB2
+P 10490 3755
+F 0 "R31" V 10570 3755 50  0000 C CNN
+F 1 "10K" V 10490 3755 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10420 3755 50  0001 C CNN
+F 3 "" H 10490 3755 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 10490 3755 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 10490 3755 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10490 3755 60  0001 C CNN "Vendor"
+F 7 "-" H 10490 3755 60  0001 C CNN "Vendor Part#"
+	1    10490 3755
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C29
+U 1 1 5B4AC204
+P 9505 3240
+F 0 "C29" H 9585 3245 50  0000 L CNN
+F 1 "0.1uF" H 9575 3175 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9505 3240 50  0001 C CNN
+F 3 "" H 9505 3240 50  0001 C CNN
+F 4 "Kemet" H 9505 3240 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 9505 3240 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 9505 3240 60  0001 C CNN "Vendor"
+F 7 "-" H 9505 3240 60  0001 C CNN "Vendor Part#"
+	1    9505 3240
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR018
+U 1 1 5B4B0BFE
+P 10370 3405
+F 0 "#PWR018" H 10370 3155 50  0001 C CNN
+F 1 "GND" H 10500 3355 50  0000 C CNN
+F 2 "" H 10370 3405 50  0001 C CNN
+F 3 "" H 10370 3405 50  0001 C CNN
+	1    10370 3405
+	-1   0    0    -1  
+$EndComp
+Text Label 10870 2905 0    60   ~ 0
+ISENSE_-
+$Comp
+L C_Small C28
+U 1 1 5B4C0A90
+P 8980 5675
+F 0 "C28" H 9060 5680 50  0000 L CNN
+F 1 "0.1uF" H 9050 5610 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8980 5675 50  0001 C CNN
+F 3 "" H 8980 5675 50  0001 C CNN
+F 4 "Kemet" H 8980 5675 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 8980 5675 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8980 5675 60  0001 C CNN "Vendor"
+F 7 "-" H 8980 5675 60  0001 C CNN "Vendor Part#"
+	1    8980 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C30
+U 1 1 5B4CC0BA
+P 10210 4000
+F 0 "C30" H 10290 4005 50  0000 L CNN
+F 1 "0.1uF" H 10280 3935 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10210 4000 50  0001 C CNN
+F 3 "" H 10210 4000 50  0001 C CNN
+F 4 "Kemet" H 10210 4000 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 10210 4000 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10210 4000 60  0001 C CNN "Vendor"
+F 7 "-" H 10210 4000 60  0001 C CNN "Vendor Part#"
+	1    10210 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 5B4CD0C3
+P 10060 4050
+F 0 "R29" V 10140 4050 50  0000 C CNN
+F 1 "10K" V 10060 4050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 9990 4050 50  0001 C CNN
+F 3 "" H 10060 4050 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 10060 4050 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 10060 4050 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10060 4050 60  0001 C CNN "Vendor"
+F 7 "-" H 10060 4050 60  0001 C CNN "Vendor Part#"
+	1    10060 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR019
+U 1 1 5B4D1A23
+P 9330 4105
+F 0 "#PWR019" H 9330 3855 50  0001 C CNN
+F 1 "GND" H 9460 4055 50  0000 C CNN
+F 2 "" H 9330 4105 50  0001 C CNN
+F 3 "" H 9330 4105 50  0001 C CNN
+	1    9330 4105
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 5B4D7CC5
+P 9505 3390
+F 0 "#PWR020" H 9505 3140 50  0001 C CNN
+F 1 "GND" H 9635 3340 50  0000 C CNN
+F 2 "" H 9505 3390 50  0001 C CNN
+F 3 "" H 9505 3390 50  0001 C CNN
+	1    9505 3390
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 5B4E73AF
+P 9480 4355
+F 0 "R28" V 9560 4355 50  0000 C CNN
+F 1 "27K" V 9480 4355 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 9410 4355 50  0001 C CNN
+F 3 "" H 9480 4355 50  0001 C CNN
+F 4 "Yageo" H 9480 4355 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0727KL" H 9480 4355 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 9480 4355 60  0001 C CNN "Vendor"
+F 7 "-" H 9480 4355 60  0001 C CNN "Vendor Part#"
+	1    9480 4355
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R27
+U 1 1 5B4E7712
+P 8980 4555
+F 0 "R27" V 9060 4555 50  0000 C CNN
+F 1 "3K" V 8980 4555 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8910 4555 50  0001 C CNN
+F 3 "" H 8980 4555 50  0001 C CNN
+F 4 "Yageo" H 8980 4555 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-073KL" H 8980 4555 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8980 4555 60  0001 C CNN "Vendor"
+F 7 "-" H 8980 4555 60  0001 C CNN "Vendor Part#"
+	1    8980 4555
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 5B4EA8F6
+P 8980 4755
+F 0 "#PWR021" H 8980 4505 50  0001 C CNN
+F 1 "GND" H 9110 4705 50  0000 C CNN
+F 2 "" H 8980 4755 50  0001 C CNN
+F 3 "" H 8980 4755 50  0001 C CNN
+	1    8980 4755
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR022
+U 1 1 5B4EEBEC
+P 10210 4300
+F 0 "#PWR022" H 10210 4050 50  0001 C CNN
+F 1 "GND" H 10340 4250 50  0000 C CNN
+F 2 "" H 10210 4300 50  0001 C CNN
+F 3 "" H 10210 4300 50  0001 C CNN
+	1    10210 4300
+	-1   0    0    -1  
+$EndComp
+Text Notes 8685 2705 0    75   ~ 15
+CONSTANT VOLTAGE LOOP
+$Comp
+L R R38
+U 1 1 5B50BECE
+P 13605 3455
+F 0 "R38" V 13685 3455 50  0000 C CNN
+F 1 "10K" V 13605 3455 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 13535 3455 50  0001 C CNN
+F 3 "" H 13605 3455 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 13605 3455 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 13605 3455 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 13605 3455 60  0001 C CNN "Vendor"
+F 7 "-" H 13605 3455 60  0001 C CNN "Vendor Part#"
+	1    13605 3455
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R22
+U 1 1 5B51E710
+P 8145 6005
+F 0 "R22" V 8225 6005 50  0000 C CNN
+F 1 "100K" V 8145 6005 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8075 6005 50  0001 C CNN
+F 3 "" H 8145 6005 50  0001 C CNN
+F 4 "Yageo" H 8145 6005 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-07100KL" H 8145 6005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8145 6005 60  0001 C CNN "Vendor"
+F 7 "-" H 8145 6005 60  0001 C CNN "Vendor Part#"
+	1    8145 6005
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R23
+U 1 1 5B52458F
+P 8145 6205
+F 0 "R23" V 8225 6205 50  0000 C CNN
+F 1 "100K" V 8145 6205 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8075 6205 50  0001 C CNN
+F 3 "" H 8145 6205 50  0001 C CNN
+F 4 "Yageo" H 8145 6205 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-07100KL" H 8145 6205 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8145 6205 60  0001 C CNN "Vendor"
+F 7 "-" H 8145 6205 60  0001 C CNN "Vendor Part#"
+	1    8145 6205
+	0    -1   -1   0   
+$EndComp
+Text Label 7845 6205 2    60   ~ 0
+ISENSE_-
+Text Label 7845 6005 2    60   ~ 0
+ISENSE_+
+$Comp
+L GND #PWR023
+U 1 1 5B52A22C
+P 8980 5825
+F 0 "#PWR023" H 8980 5575 50  0001 C CNN
+F 1 "GND" H 9120 5770 50  0000 C CNN
+F 2 "" H 8980 5825 50  0001 C CNN
+F 3 "" H 8980 5825 50  0001 C CNN
+	1    8980 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 5B52CC77
+P 8835 6920
+F 0 "R26" V 8915 6920 50  0000 C CNN
+F 1 "1K" V 8835 6920 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8765 6920 50  0001 C CNN
+F 3 "" H 8835 6920 50  0001 C CNN
+F 4 "Bourns Inc." H 8835 6920 60  0001 C CNN "Manufacturer"
+F 5 "CRM2512-JW-102ELF" H 8835 6920 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8835 6920 60  0001 C CNN "Vendor"
+F 7 "-" H 8835 6920 60  0001 C CNN "Vendor Part#"
+	1    8835 6920
+	0    1    1    0   
+$EndComp
+$Comp
+L R R24
+U 1 1 5B5492AB
+P 8360 6600
+F 0 "R24" V 8280 6600 50  0000 C CNN
+F 1 "1M" V 8360 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8290 6600 50  0001 C CNN
+F 3 "" H 8360 6600 50  0001 C CNN
+F 4 "Yageo" H 8360 6600 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-071ML" H 8360 6600 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8360 6600 60  0001 C CNN "Vendor"
+F 7 "-" H 8360 6600 60  0001 C CNN "Vendor Part#"
+	1    8360 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R25
+U 1 1 5B549493
+P 8835 6720
+F 0 "R25" V 8915 6720 50  0000 C CNN
+F 1 "1M" V 8835 6720 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8765 6720 50  0001 C CNN
+F 3 "" H 8835 6720 50  0001 C CNN
+F 4 "Yageo" H 8835 6720 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-071ML" H 8835 6720 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 8835 6720 60  0001 C CNN "Vendor"
+F 7 "-" H 8835 6720 60  0001 C CNN "Vendor Part#"
+	1    8835 6720
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR024
+U 1 1 5B557B61
+P 8360 7050
+F 0 "#PWR024" H 8360 6800 50  0001 C CNN
+F 1 "GND" H 8500 6995 50  0000 C CNN
+F 2 "" H 8360 7050 50  0001 C CNN
+F 3 "" H 8360 7050 50  0001 C CNN
+	1    8360 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 5B56321E
+P 10155 6305
+F 0 "R30" V 10235 6305 50  0000 C CNN
+F 1 "1K" V 10155 6305 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 10085 6305 50  0001 C CNN
+F 3 "" H 10155 6305 50  0001 C CNN
+F 4 "Bourns Inc." H 10155 6305 60  0001 C CNN "Manufacturer"
+F 5 "CRM2512-JW-102ELF" H 10155 6305 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10155 6305 60  0001 C CNN "Vendor"
+F 7 "-" H 10155 6305 60  0001 C CNN "Vendor Part#"
+	1    10155 6305
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C31
+U 1 1 5B57B4DC
+P 10555 6655
+F 0 "C31" V 10735 6630 50  0000 L CNN
+F 1 "0.1uF" V 10660 6555 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 10555 6655 50  0001 C CNN
+F 3 "" H 10555 6655 50  0001 C CNN
+F 4 "Kemet" H 10555 6655 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 10555 6655 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 10555 6655 60  0001 C CNN "Vendor"
+F 7 "-" H 10555 6655 60  0001 C CNN "Vendor Part#"
+	1    10555 6655
+	0    1    1    0   
+$EndComp
+$Comp
+L R R35
+U 1 1 5B580FB4
+P 11390 6205
+F 0 "R35" V 11470 6205 50  0000 C CNN
+F 1 "470" V 11390 6205 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 11320 6205 50  0001 C CNN
+F 3 "" H 11390 6205 50  0001 C CNN
+F 4 "Yageo" H 11390 6205 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-07470RL" H 11390 6205 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11390 6205 60  0001 C CNN "Vendor"
+F 7 "-" H 11390 6205 60  0001 C CNN "Vendor Part#"
+	1    11390 6205
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C32
+U 1 1 5B58438C
+P 11385 6055
+F 0 "C32" V 11565 6030 50  0000 L CNN
+F 1 "1nF" V 11490 5955 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 11385 6055 50  0001 C CNN
+F 3 "" H 11385 6055 50  0001 C CNN
+F 4 "Kemet" H 11385 6055 60  0001 C CNN "Manufacturer"
+F 5 "C0805C102K5RACTU" H 11385 6055 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11385 6055 60  0001 C CNN "Vendor"
+F 7 "-" H 11385 6055 60  0001 C CNN "Vendor Part#"
+	1    11385 6055
+	0    1    -1   0   
+$EndComp
+$Comp
+L D_Schottky_ALT D9
+U 1 1 5B5A8AF1
+P 11790 6205
+F 0 "D9" H 11790 6305 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 11790 6105 50  0001 C CNN
+F 2 "Diodes_SMD:D_SMC" H 11790 6205 50  0001 C CNN
+F 3 "" H 11790 6205 50  0001 C CNN
+F 4 "ON Semiconductor" H 11790 6205 60  0001 C CNN "Manufacturer"
+F 5 "MBRS360T3G" H 11790 6205 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 11790 6205 60  0001 C CNN "Vendor"
+F 7 "-" H 11790 6205 60  0001 C CNN "Vendor Part#"
+	1    11790 6205
+	-1   0    0    1   
+$EndComp
+Text Notes 7075 5170 0    75   ~ 15
+CONSTANT CURRENT LOOP
+Text HLabel 2425 2395 0    100  Input ~ 0
+VSYS
+Text HLabel 1460 2970 0    100  Input ~ 0
+BOOST_EN
+$Comp
+L VCC #PWR025
+U 1 1 5B5F6CF4
+P 12220 2830
+F 0 "#PWR025" H 12220 2680 60  0001 C CNN
+F 1 "VCC" H 12220 2980 50  0000 C CNN
+F 2 "" H 12220 2830 50  0001 C CNN
+F 3 "" H 12220 2830 50  0001 C CNN
+	1    12220 2830
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR026
+U 1 1 5B5F7762
+P 9330 2980
+F 0 "#PWR026" H 9330 2830 60  0001 C CNN
+F 1 "VCC" H 9330 3130 50  0000 C CNN
+F 2 "" H 9330 2980 50  0001 C CNN
+F 3 "" H 9330 2980 50  0001 C CNN
+	1    9330 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR027
+U 1 1 5B5F8745
+P 8980 5450
+F 0 "#PWR027" H 8980 5300 60  0001 C CNN
+F 1 "VCC" H 8980 5600 50  0000 C CNN
+F 2 "" H 8980 5450 50  0001 C CNN
+F 3 "" H 8980 5450 50  0001 C CNN
+	1    8980 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR028
+U 1 1 5B5FD63A
+P 15890 8130
+F 0 "#PWR028" H 15890 7980 60  0001 C CNN
+F 1 "VCC" H 15890 8280 50  0000 C CNN
+F 2 "" H 15890 8130 50  0001 C CNN
+F 3 "" H 15890 8130 50  0001 C CNN
+	1    15890 8130
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR029
+U 1 1 5B5FEE0F
+P 6600 3105
+F 0 "#PWR029" H 6600 2955 60  0001 C CNN
+F 1 "VCC" H 6600 3255 50  0000 C CNN
+F 2 "" H 6600 3105 50  0001 C CNN
+F 3 "" H 6600 3105 50  0001 C CNN
+	1    6600 3105
+	1    0    0    -1  
+$EndComp
+Text Label 15795 3005 0    50   ~ 0
+OUTPUT
+Text Label 15890 8320 2    50   ~ 0
+OUTPUT
+$Comp
+L GND #PWR030
+U 1 1 5B62BFA3
+P 15890 8910
+F 0 "#PWR030" H 15890 8660 50  0001 C CNN
+F 1 "GND" H 16030 8855 50  0000 C CNN
+F 2 "" H 15890 8910 50  0001 C CNN
+F 3 "" H 15890 8910 50  0001 C CNN
+	1    15890 8910
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LTC1871-1 U6
+U 1 1 5B637744
+P 3210 3305
+F 0 "U6" H 2980 3505 50  0000 R CNN
+F 1 "LTC1871-1" H 3840 2470 50  0000 R CNN
+F 2 "Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm" H 3260 2955 50  0001 L CNN
+F 3 "" H 3860 2605 50  0000 C CNN
+F 4 "Linear Technologies/Analog Devices" H 3210 3305 60  0001 C CNN "Manufacturer"
+F 5 "LTC1871EMS-1#PBF" H 3210 3305 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 3210 3305 60  0001 C CNN "Vendor"
+F 7 "-" H 3210 3305 60  0001 C CNN "Vendor Part#"
+	1    3210 3305
+	1    0    0    -1  
+$EndComp
+$Comp
+L L L5
+U 1 1 5B63EA03
+P 4550 3005
+F 0 "L5" V 4500 3005 50  0000 C CNN
+F 1 "1uH" V 4625 3005 50  0000 C CNN
+F 2 "Lab Power Supply Footprints:SRP1245A-1R0M" H 4550 3005 50  0001 C CNN
+F 3 "" H 4550 3005 50  0001 C CNN
+F 4 "Bourns Inc" H 4550 3005 60  0001 C CNN "Manufacturer"
+F 5 "SRP1245A-1R0M" H 4550 3005 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 4550 3005 60  0001 C CNN "Vendor"
+F 7 "-" H 4550 3005 60  0001 C CNN "Vendor Part#"
+	1    4550 3005
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor-Polarized C24
+U 1 1 5B6433AA
+P 5600 3505
+F 0 "C24" H 5625 3605 50  0000 L CNN
+F 1 "22uF" H 5625 3405 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 5600 3505 50  0001 C CNN
+F 3 "" H 5600 3505 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 5600 3505 60  0001 C CNN "Manufacturer"
+F 5 "EEE-1HA220WP" H 5600 3505 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 5600 3505 60  0001 C CNN "Vendor"
+F 7 "-" H 5600 3505 60  0001 C CNN "Vendor Part#"
+	1    5600 3505
+	1    0    0    -1  
+$EndComp
+$Comp
+L Capacitor-Polarized C25
+U 1 1 5B6470D7
+P 5950 3505
+F 0 "C25" H 5975 3605 50  0000 L CNN
+F 1 "22uF" H 5975 3405 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 5950 3505 50  0001 C CNN
+F 3 "" H 5950 3505 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 5950 3505 60  0001 C CNN "Manufacturer"
+F 5 "EEE-1HA220WP" H 5950 3505 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 5950 3505 60  0001 C CNN "Vendor"
+F 7 "-" H 5950 3505 60  0001 C CNN "Vendor Part#"
+	1    5950 3505
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C22
+U 1 1 5B64E085
+P 2450 4105
+F 0 "C22" V 2490 4165 50  0000 L CNN
+F 1 "4.7uF" V 2545 3995 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2450 4105 50  0001 C CNN
+F 3 "" H 2450 4105 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2450 4105 60  0001 C CNN "Manufacturer"
+F 5 "CL21A475KLCLQNC" H 2450 4105 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 2450 4105 60  0001 C CNN "Vendor"
+F 7 "-" H 2450 4105 60  0001 C CNN "Vendor Part#"
+	1    2450 4105
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 5B655AAA
+P 1560 3455
+F 0 "R17" V 1640 3455 50  0000 C CNN
+F 1 "10K" V 1560 3455 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1490 3455 50  0001 C CNN
+F 3 "" H 1560 3455 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1560 3455 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 1560 3455 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 1560 3455 60  0001 C CNN "Vendor"
+F 7 "-" H 1560 3455 60  0001 C CNN "Vendor Part#"
+	1    1560 3455
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16005 8205 15890 8205
+Wire Wire Line
+	16005 8320 15890 8320
+Wire Wire Line
+	16005 8570 15890 8570
+Wire Wire Line
+	16005 8695 15890 8695
+Wire Wire Line
+	16005 8810 15890 8810
+Wire Wire Line
+	16005 8445 15890 8445
+Wire Wire Line
+	16005 8910 15890 8910
+Wire Wire Line
+	15355 3005 15255 3005
+Wire Wire Line
+	14855 3005 14855 3305
+Wire Wire Line
+	14455 3005 14455 3105
+Wire Wire Line
+	14455 3405 14455 3605
+Wire Wire Line
+	14455 3505 14555 3505
+Connection ~ 14455 3505
+Wire Wire Line
+	14855 3705 14855 4005
+Wire Wire Line
+	14455 3985 14455 3905
+Wire Wire Line
+	14105 3985 14105 3640
+Wire Wire Line
+	14105 2505 14105 3340
+Wire Wire Line
+	16090 3005 15755 3005
+Wire Wire Line
+	16090 3105 15750 3105
+Wire Wire Line
+	15750 3105 15750 3985
+Wire Wire Line
+	13605 3605 13605 3985
+Wire Wire Line
+	15750 3985 12905 3985
+Connection ~ 14105 3985
+Connection ~ 14855 3985
+Connection ~ 14455 3985
+Wire Wire Line
+	14005 3005 14955 3005
+Connection ~ 14855 3005
+Connection ~ 14455 3005
+Connection ~ 14105 3005
+Wire Wire Line
+	13505 3005 13705 3005
+Wire Wire Line
+	13605 2155 13605 3305
+Connection ~ 13605 3005
+Wire Wire Line
+	13205 3005 13105 3005
+Wire Wire Line
+	13605 2155 14705 2155
+Wire Wire Line
+	14705 2505 14105 2505
+Wire Wire Line
+	12220 3005 12705 3005
+Wire Wire Line
+	12605 3005 12605 3105
+Wire Wire Line
+	12905 3305 12905 3455
+Wire Wire Line
+	12605 3405 12905 3405
+Connection ~ 12905 3405
+Wire Wire Line
+	12905 3985 12905 3855
+Connection ~ 13605 3985
+Wire Wire Line
+	12320 3005 12320 3105
+Connection ~ 12605 3005
+Wire Wire Line
+	12120 3655 12605 3655
+Wire Wire Line
+	12320 3655 12320 3405
+Connection ~ 12320 3655
+Wire Wire Line
+	11570 3655 11820 3655
+Wire Wire Line
+	11385 4455 11285 4455
+Wire Wire Line
+	11385 4805 11285 4805
+Wire Wire Line
+	11585 4455 11755 4455
+Wire Wire Line
+	11755 3655 11755 4805
+Connection ~ 11755 3655
+Wire Wire Line
+	11755 4805 11585 4805
+Connection ~ 11755 4455
+Wire Wire Line
+	10985 4455 10790 4455
+Wire Wire Line
+	10790 3755 10790 4805
+Wire Wire Line
+	10640 3755 10970 3755
+Wire Wire Line
+	10790 4805 10985 4805
+Connection ~ 10790 4455
+Connection ~ 10790 3755
+Wire Wire Line
+	10870 3555 10970 3555
+Wire Wire Line
+	10870 3305 10870 3555
+Wire Wire Line
+	10420 3355 10370 3355
+Wire Wire Line
+	10370 3355 10370 3405
+Wire Wire Line
+	10870 3005 10870 2905
+Wire Wire Line
+	10720 3355 10870 3355
+Connection ~ 10870 3355
+Wire Wire Line
+	9505 3340 9505 3390
+Wire Wire Line
+	9330 2980 9330 3455
+Wire Wire Line
+	9505 3140 9505 3085
+Wire Wire Line
+	9505 3085 9330 3085
+Connection ~ 9330 3085
+Wire Wire Line
+	9330 4055 9330 4105
+Wire Wire Line
+	9130 3855 8980 3855
+Wire Wire Line
+	8980 3855 8980 4405
+Wire Wire Line
+	9330 4355 8980 4355
+Connection ~ 8980 4355
+Wire Wire Line
+	8980 4705 8980 4755
+Wire Wire Line
+	9630 4355 9880 4355
+Wire Wire Line
+	9880 4355 9880 3755
+Wire Wire Line
+	9730 3755 10340 3755
+Wire Wire Line
+	10210 4100 10210 4300
+Wire Wire Line
+	10060 4200 10060 4260
+Wire Wire Line
+	10060 4260 10210 4260
+Connection ~ 10210 4260
+Connection ~ 9880 3755
+Wire Wire Line
+	10210 3900 10210 3755
+Connection ~ 10210 3755
+Wire Wire Line
+	10060 3900 10060 3755
+Connection ~ 10060 3755
+Wire Wire Line
+	9130 3655 8630 3655
+Wire Wire Line
+	12220 2830 12220 3005
+Connection ~ 12320 3005
+Wire Notes Line
+	12080 2710 8680 2710
+Wire Notes Line
+	8680 2710 8680 5045
+Wire Notes Line
+	8680 5045 12080 5045
+Wire Notes Line
+	12080 5045 12080 2710
+Wire Wire Line
+	8295 6005 8620 6005
+Wire Wire Line
+	8295 6205 8620 6205
+Wire Wire Line
+	7995 6005 7845 6005
+Wire Wire Line
+	7995 6205 7845 6205
+Wire Wire Line
+	8820 6405 8820 6455
+Wire Wire Line
+	9450 6720 8985 6720
+Wire Wire Line
+	9450 6105 9450 6920
+Wire Wire Line
+	9220 6105 10355 6105
+Wire Wire Line
+	8980 5450 8980 5575
+Wire Wire Line
+	8980 5550 8820 5550
+Wire Wire Line
+	8820 5550 8820 5805
+Connection ~ 8980 5550
+Wire Wire Line
+	8980 5775 8980 5825
+Connection ~ 9450 6105
+Wire Wire Line
+	10305 6305 10355 6305
+Wire Wire Line
+	9945 6305 9945 7465
+Wire Wire Line
+	9945 6305 10005 6305
+Wire Wire Line
+	10330 6305 10330 6655
+Wire Wire Line
+	10330 6655 10455 6655
+Connection ~ 10330 6305
+Wire Wire Line
+	11190 6655 10655 6655
+Wire Wire Line
+	11190 6055 11190 6655
+Wire Wire Line
+	10955 6205 11240 6205
+Connection ~ 11190 6205
+Wire Wire Line
+	11190 6055 11285 6055
+Wire Wire Line
+	11540 6205 11640 6205
+Wire Wire Line
+	11485 6055 11590 6055
+Wire Wire Line
+	11590 6055 11590 6205
+Connection ~ 11590 6205
+Wire Notes Line
+	7375 5215 7375 7790
+Wire Notes Line
+	7375 5215 12160 5215
+Wire Wire Line
+	11940 6205 12520 6205
+Wire Wire Line
+	12520 6205 12520 3655
+Connection ~ 12520 3655
+Wire Wire Line
+	9450 6920 8985 6920
+Connection ~ 9450 6720
+Wire Wire Line
+	8685 6920 8360 6920
+Wire Wire Line
+	8360 6750 8360 7050
+Connection ~ 8360 6920
+Wire Wire Line
+	8360 6450 8360 6005
+Connection ~ 8360 6005
+Wire Wire Line
+	8685 6720 8545 6720
+Wire Wire Line
+	8545 6720 8545 6205
+Connection ~ 8545 6205
+Wire Wire Line
+	9945 7465 9810 7465
+Wire Notes Line
+	7375 7790 12160 7790
+Wire Notes Line
+	12160 7790 12160 7080
+Wire Notes Line
+	12160 5215 12160 7085
+Wire Wire Line
+	2760 3255 1560 3255
+Wire Wire Line
+	1560 2970 1560 3305
+Connection ~ 1560 3255
+$Comp
+L GND #PWR031
+U 1 1 5B66C142
+P 1560 3655
+F 0 "#PWR031" H 1560 3405 50  0001 C CNN
+F 1 "GND" H 1700 3600 50  0000 C CNN
+F 2 "" H 1560 3655 50  0001 C CNN
+F 3 "" H 1560 3655 50  0001 C CNN
+	1    1560 3655
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1560 3605 1560 3655
+$Comp
+L GND #PWR032
+U 1 1 5B66FBD5
+P 3300 4645
+F 0 "#PWR032" H 3300 4395 50  0001 C CNN
+F 1 "GND" H 3440 4590 50  0000 C CNN
+F 2 "" H 3300 4645 50  0001 C CNN
+F 3 "" H 3300 4645 50  0001 C CNN
+	1    3300 4645
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R20
+U 1 1 5B67A2C2
+P 2655 4105
+F 0 "R20" V 2735 4105 50  0000 C CNN
+F 1 "80.6K" V 2655 4105 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 2585 4105 50  0001 C CNN
+F 3 "" H 2655 4105 50  0001 C CNN
+F 4 "Yageo" H 2655 4105 60  0001 C CNN "Manufacturer"
+F 5 "RC0805FR-0780K6L" H 2655 4105 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 2655 4105 60  0001 C CNN "Vendor"
+F 7 "-" H 2655 4105 60  0001 C CNN "Vendor Part#"
+	1    2655 4105
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2755 3855 2655 3855
+Wire Wire Line
+	2655 3855 2655 3955
+Wire Wire Line
+	2450 3555 2755 3555
+Wire Wire Line
+	2450 3555 2450 4005
+Wire Wire Line
+	2450 4580 2450 4205
+Wire Wire Line
+	2755 3705 2660 3705
+Wire Wire Line
+	2660 3705 2660 3555
+Connection ~ 2660 3555
+$Comp
+L Capacitor-Polarized C27
+U 1 1 5B6A58AA
+P 6300 3505
+F 0 "C27" H 6325 3605 50  0000 L CNN
+F 1 "22uF" H 6325 3405 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 6300 3505 50  0001 C CNN
+F 3 "" H 6300 3505 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 6300 3505 60  0001 C CNN "Manufacturer"
+F 5 "EEE-1HA220WP" H 6300 3505 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 6300 3505 60  0001 C CNN "Vendor"
+F 7 "-" H 6300 3505 60  0001 C CNN "Vendor Part#"
+	1    6300 3505
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 5B6A7F21
+P 4550 3805
+F 0 "#PWR033" H 4550 3555 50  0001 C CNN
+F 1 "GND" H 4690 3750 50  0000 C CNN
+F 2 "" H 4550 3805 50  0001 C CNN
+F 3 "" H 4550 3805 50  0001 C CNN
+	1    4550 3805
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3805 4550 3755
+Wire Wire Line
+	4250 3555 3850 3555
+Wire Wire Line
+	4550 3155 4550 3355
+Wire Wire Line
+	3850 3255 4700 3255
+Connection ~ 4550 3255
+$Comp
+L GND #PWR034
+U 1 1 5B6AC6A8
+P 5600 3705
+F 0 "#PWR034" H 5600 3455 50  0001 C CNN
+F 1 "GND" H 5740 3650 50  0000 C CNN
+F 2 "" H 5600 3705 50  0001 C CNN
+F 3 "" H 5600 3705 50  0001 C CNN
+	1    5600 3705
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3255 6600 3105
+Wire Wire Line
+	5050 3255 6600 3255
+Wire Wire Line
+	5600 3355 5600 3255
+Connection ~ 5600 3255
+Wire Wire Line
+	5950 3355 5950 3255
+Connection ~ 5950 3255
+Wire Wire Line
+	6300 3355 6300 3255
+Connection ~ 6300 3255
+Wire Wire Line
+	5600 3655 5600 3705
+Wire Wire Line
+	5950 3655 5950 3685
+Wire Wire Line
+	5600 3685 6300 3685
+Connection ~ 5600 3685
+Wire Wire Line
+	6300 3685 6300 3655
+Connection ~ 5950 3685
+$Comp
+L Capacitor-Polarized C23
+U 1 1 5B6B5D5D
+P 2680 2795
+F 0 "C23" H 2705 2895 50  0000 L CNN
+F 1 "22uF" H 2705 2695 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_6.3x5.3" H 2680 2795 50  0001 C CNN
+F 3 "" H 2680 2795 50  0001 C CNN
+F 4 "Panasonic Electronic Components" H 2680 2795 60  0001 C CNN "Manufacturer"
+F 5 "EEE-1HA220WP" H 2680 2795 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 2680 2795 60  0001 C CNN "Vendor"
+F 7 "-" H 2680 2795 60  0001 C CNN "Vendor Part#"
+	1    2680 2795
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR035
+U 1 1 5B6B6957
+P 2680 2995
+F 0 "#PWR035" H 2680 2745 50  0001 C CNN
+F 1 "GND" H 2820 2940 50  0000 C CNN
+F 2 "" H 2680 2995 50  0001 C CNN
+F 3 "" H 2680 2995 50  0001 C CNN
+	1    2680 2995
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2680 2945 2680 2995
+Wire Wire Line
+	1560 2970 1460 2970
+Wire Wire Line
+	2425 2395 4550 2395
+Wire Wire Line
+	4550 2395 4550 2855
+Wire Wire Line
+	3300 3055 3300 2395
+Connection ~ 3300 2395
+Wire Wire Line
+	2680 2645 2680 2395
+Connection ~ 2680 2395
+$Comp
+L R R18
+U 1 1 5B6BFA6F
+P 1825 3755
+F 0 "R18" V 1905 3755 50  0000 C CNN
+F 1 "10K" V 1825 3755 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1755 3755 50  0001 C CNN
+F 3 "" H 1825 3755 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1825 3755 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 1825 3755 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 1825 3755 60  0001 C CNN "Vendor"
+F 7 "-" H 1825 3755 60  0001 C CNN "Vendor Part#"
+	1    1825 3755
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C21
+U 1 1 5B6C4E13
+P 2110 4090
+F 0 "C21" V 2150 3905 50  0000 L CNN
+F 1 "47pF" V 2210 4040 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2110 4090 50  0001 C CNN
+F 3 "" H 2110 4090 50  0001 C CNN
+F 4 "Johanson Dielectrics Inc" H 2110 4090 60  0001 C CNN "Manufacturer"
+F 5 "500R15N470JV4T" H 2110 4090 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 2110 4090 60  0001 C CNN "Vendor"
+F 7 "-" H 2110 4090 60  0001 C CNN "Vendor Part#"
+	1    2110 4090
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R19
+U 1 1 5B6C9F6B
+P 1825 4105
+F 0 "R19" V 1905 4105 50  0000 C CNN
+F 1 "10K" V 1825 4105 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 1755 4105 50  0001 C CNN
+F 3 "" H 1825 4105 50  0001 C CNN
+F 4 "Stackpole Electronics Inc" H 1825 4105 60  0001 C CNN "Manufacturer"
+F 5 "RMCF0805JT10K0" H 1825 4105 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 1825 4105 60  0001 C CNN "Vendor"
+F 7 "-" H 1825 4105 60  0001 C CNN "Vendor Part#"
+	1    1825 4105
+	-1   0    0    1   
+$EndComp
+$Comp
+L C_Small C20
+U 1 1 5B6D0D52
+P 1825 4405
+F 0 "C20" V 1715 4330 50  0000 L CNN
+F 1 "6800pF" V 1925 4355 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1825 4405 50  0001 C CNN
+F 3 "" H 1825 4405 50  0001 C CNN
+F 4 "Kemet" H 1825 4405 60  0001 C CNN "Manufacturer"
+F 5 "C0805C682K5RACTU" H 1825 4405 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 1825 4405 60  0001 C CNN "Vendor"
+F 7 "-" H 1825 4405 60  0001 C CNN "Vendor Part#"
+	1    1825 4405
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 4195 3300 4645
+Wire Wire Line
+	1825 4505 1825 4580
+Wire Wire Line
+	1825 4580 3300 4580
+Connection ~ 3300 4580
+Wire Wire Line
+	1825 4305 1825 4255
+Wire Wire Line
+	1825 3955 1825 3905
+Wire Wire Line
+	1825 3405 1825 3605
+Wire Wire Line
+	1825 3405 2760 3405
+Wire Wire Line
+	2110 3990 2110 3405
+Connection ~ 2110 3405
+Wire Wire Line
+	2110 4190 2110 4580
+Connection ~ 2110 4580
+Connection ~ 2450 4580
+Wire Wire Line
+	2655 4255 2655 4580
+Connection ~ 2655 4580
+Text Label 3955 3555 0    50   ~ 0
+GATE
+Text Label 15890 8445 2    50   ~ 0
+GATE
+Text Label 2450 3555 0    50   ~ 0
+INTVCC
+Text Label 15890 8570 2    50   ~ 0
+INTVCC
+Text Label 2460 3405 0    50   ~ 0
+ITH
+Text Label 15890 8695 2    50   ~ 0
+ITH
+Text Label 2460 3255 0    50   ~ 0
+RUN
+Text Label 15890 8810 2    50   ~ 0
+RUN
+Text Notes 3865 4725 0    60   ~ 12
+VCC = 1.230V*(1+R1/R2)
+$Comp
+L R R21
+U 1 1 5B70398B
+P 4420 4980
+F 0 "R21" V 4500 4980 50  0000 C CNN
+F 1 "4.7K" V 4420 4980 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4350 4980 50  0001 C CNN
+F 3 "" H 4420 4980 50  0001 C CNN
+F 4 "Yageo" H 4420 4980 60  0001 C CNN "Manufacturer"
+F 5 "RC0805JR-074K7L" H 4420 4980 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 4420 4980 60  0001 C CNN "Vendor"
+F 7 "-" H 4420 4980 60  0001 C CNN "Vendor Part#"
+	1    4420 4980
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR036
+U 1 1 5B7050E1
+P 4420 5180
+F 0 "#PWR036" H 4420 4930 50  0001 C CNN
+F 1 "GND" H 4560 5125 50  0000 C CNN
+F 2 "" H 4420 5180 50  0001 C CNN
+F 3 "" H 4420 5180 50  0001 C CNN
+	1    4420 5180
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4420 5130 4420 5180
+Text HLabel 6175 4580 2    60   BiDi ~ 0
+I2C_SDA
+Text HLabel 6170 4780 2    60   BiDi ~ 0
+I2C_SCL
+$Comp
+L MCP40D17T-104E/LT U7
+U 1 1 5B735368
+P 5620 4730
+F 0 "U7" H 5355 4480 50  0000 L CNN
+F 1 "MCP40D17T-104E/LT" H 4630 4405 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6" H 5620 4730 50  0001 C CNN
+F 3 "" H 5620 4730 50  0001 C CNN
+F 4 "Microchip Technology" H 5620 4730 60  0001 C CNN "Manufacturer"
+F 5 "MCP40D17T-104E/LT" H 5620 4730 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 5620 4730 60  0001 C CNN "Vendor"
+F 7 "-" H 5620 4730 60  0001 C CNN "Vendor Part#"
+	1    5620 4730
+	-1   0    0    -1  
+$EndComp
+Text Notes 6470 5170 2    50   ~ 10
+100K DIGITAL POT
+Wire Wire Line
+	6020 4580 6175 4580
+Wire Wire Line
+	6020 4780 6170 4780
+Text HLabel 5570 4040 0    60   Input ~ 0
++3.3V
+$Comp
+L C_Small C26
+U 1 1 5B748FFE
+P 6150 4225
+F 0 "C26" H 6230 4230 50  0000 L CNN
+F 1 "0.1uF" H 6220 4160 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 6150 4225 50  0001 C CNN
+F 3 "" H 6150 4225 50  0001 C CNN
+F 4 "Kemet" H 6150 4225 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 6150 4225 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 6150 4225 60  0001 C CNN "Vendor"
+F 7 "-" H 6150 4225 60  0001 C CNN "Vendor Part#"
+	1    6150 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR037
+U 1 1 5B749E13
+P 6150 4375
+F 0 "#PWR037" H 6150 4125 50  0001 C CNN
+F 1 "GND" H 6290 4320 50  0000 C CNN
+F 2 "" H 6150 4375 50  0001 C CNN
+F 3 "" H 6150 4375 50  0001 C CNN
+	1    6150 4375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5570 4040 6150 4040
+Wire Wire Line
+	5620 4040 5620 4330
+Wire Wire Line
+	6150 4040 6150 4125
+Connection ~ 5620 4040
+Wire Wire Line
+	6150 4325 6150 4375
+$Comp
+L GND #PWR038
+U 1 1 5B74CFFC
+P 5620 5080
+F 0 "#PWR038" H 5620 4830 50  0001 C CNN
+F 1 "GND" H 5760 5025 50  0000 C CNN
+F 2 "" H 5620 5080 50  0001 C CNN
+F 3 "" H 5620 5080 50  0001 C CNN
+	1    5620 5080
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5620 5080 5620 5030
+Wire Wire Line
+	5270 4580 5135 4580
+Wire Wire Line
+	5135 4580 5135 3255
+Wire Wire Line
+	4165 4780 5270 4780
+Wire Wire Line
+	4420 4780 4420 4830
+Wire Notes Line
+	555  2210 555  5375
+Wire Notes Line
+	555  5375 6830 5375
+Wire Notes Line
+	6830 5375 6830 2210
+Wire Notes Line
+	6830 2210 555  2210
+$Comp
+L D_Schottky_AAK D7
+U 1 1 5AEF4BE3
+P 4900 3255
+F 0 "D7" H 4900 3355 50  0000 C CNN
+F 1 "D_Schottky_AAK" H 4900 3155 50  0001 C CNN
+F 2 "Lab Power Supply Footprints:V20PW10-M3" H 4900 3255 50  0001 C CNN
+F 3 "" H 4900 3255 50  0001 C CNN
+F 4 "Vishay Semiconductor" H 4900 3255 60  0001 C CNN "Manufacturer"
+F 5 "V20PW10-M3/I" H 4900 3255 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 4900 3255 60  0001 C CNN "Vendor"
+F 7 "-" H 4900 3255 60  0001 C CNN "Vendor Part#"
+	1    4900 3255
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4700 3355 4665 3355
+Wire Wire Line
+	4665 3355 4665 3255
+Connection ~ 4665 3255
+Connection ~ 5135 3255
+$Comp
+L Q_NMOS_GDS Q3
+U 1 1 5B06F5E6
+P 4450 3555
+F 0 "Q3" H 4650 3605 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4650 3505 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 4650 3655 50  0001 C CNN
+F 3 "" H 4450 3555 50  0001 C CNN
+F 4 "Infineon Technologies" H 4450 3555 60  0001 C CNN "Manufacturer"
+F 5 "IRLR6225TRPBF" H 4450 3555 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 4450 3555 60  0001 C CNN "Vendor"
+F 7 "-" H 4450 3555 60  0001 C CNN "Vendor Part#"
+	1    4450 3555
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDS Q6
+U 1 1 5B07D316
+P 14755 3505
+F 0 "Q6" H 14955 3555 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 14955 3455 50  0001 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-2" H 14955 3605 50  0001 C CNN
+F 3 "" H 14755 3505 50  0001 C CNN
+F 4 "Infineon Technologies" H 14755 3505 60  0001 C CNN "Manufacturer"
+F 5 "IRF530NSTRLPBF" H 14755 3505 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 14755 3505 60  0001 C CNN "Vendor"
+F 7 "-" H 14755 3505 60  0001 C CNN "Vendor Part#"
+	1    14755 3505
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3855 4165 3855
+Wire Wire Line
+	4165 3855 4165 4780
+Connection ~ 4420 4780
+$Comp
+L C_Small C62
+U 1 1 5B1259BA
+P 2935 2790
+F 0 "C62" H 3015 2795 50  0000 L CNN
+F 1 "0.1uF" H 3005 2725 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2935 2790 50  0001 C CNN
+F 3 "" H 2935 2790 50  0001 C CNN
+F 4 "Kemet" H 2935 2790 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104K5RACTU" H 2935 2790 60  0001 C CNN "Manufacturer Part#"
+F 6 "-" H 2935 2790 60  0001 C CNN "Vendor"
+F 7 "-" H 2935 2790 60  0001 C CNN "Vendor Part#"
+	1    2935 2790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2935 2690 2935 2395
+Connection ~ 2935 2395
+Wire Wire Line
+	2935 2890 2935 2970
+Wire Wire Line
+	2935 2970 2680 2970
+Connection ~ 2680 2970
+Wire Wire Line
+	15890 8205 15890 8130
+$EndSCHEMATC

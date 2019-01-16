@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Lab_Power_Supply-rescue)(type Legacy)(uri ${KIPRJMOD}/Lab_Power_Supply-rescue.lib)(options "")(descr ""))
+  (lib (name Lab_Power_Supply)(type Legacy)(uri ${KIPRJMOD}/Lab_Power_Supply.lib)(options "")(descr ""))
+  (lib (name LM3940IMP-3.3)(type Legacy)(uri "${KIPRJMOD}/Downloaded Libraries/LM3940IMP-3.3/LM3940IMP-3.3.lib")(options "")(descr ""))
+  (lib (name LPS-cache)(type Legacy)(uri ${KIPRJMOD}/LPS-cache.lib)(options "")(descr ""))
+)

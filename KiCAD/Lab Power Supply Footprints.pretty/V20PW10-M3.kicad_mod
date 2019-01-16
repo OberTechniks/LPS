@@ -1,0 +1,11 @@
+(module V20PW10-M3 (layer F.Cu) (tedit 5AEFB185)
+  (fp_text reference REF** (at -3 -3.6 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value V20PW10-M3 (at 2.8 2.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at 4.58 0) (size 1.4 1.9) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 1.4 1.9) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.29 -6.815) (size 6.1 5.97) (layers F.Cu F.Paste F.Mask))
+)
